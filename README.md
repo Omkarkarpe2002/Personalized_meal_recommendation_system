@@ -1,4 +1,4 @@
-# A Personalized Meal Recommendation System 
+# A Personalized Meal Recommendation System - Group 40 CSE
 
 ### - **Abstract** 
 _On the Internet, where the number of choices is overwhelming, there is need to filter, prioritize and efficiently deliver relevant information in order to alleviate the problem of information overload, which has created a potential problem to many Internet users. Recommender systems solve this problem by searching through large volume of dynamically generated information to provide users with personalized content and services._
