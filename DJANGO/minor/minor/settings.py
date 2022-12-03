@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'recommendation_system',
         'USER': 'root', 
-        'PASSWORD': '',
+        'PASSWORD': 'bhakti@2007',
         'HOST': 'localhost',
         'PORT': '3306',   #my port is 3306
         'OPTIONS': {

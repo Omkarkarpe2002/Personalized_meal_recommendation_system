@@ -131,9 +131,9 @@ def Recommend(request):
         
         user_id = request.user.username  # user id of current user
         
-        profiles = pd.read_csv(r'C:\Users\MMG\Desktop\NBMRS\minor\website\csvfile\user_Profiles.csv') # profiles of all users
-        recent_activity = pd.read_csv(r'C:\Users\MMG\Desktop\NBMRS\minor\website\csvfile\recent_activity.csv') # recent activities of current user (meals liked,rated,searched,Purchased)
-        dataset = pd.read_csv(r'C:\Users\MMG\Desktop\NBMRS\minor\website\dataset.csv') # main dataset
+        profiles = pd.read_csv(r'C:\\Users\\DELL\\Desktop\\gitdiet\\meal\\DJANGO\\minor\\website\\csvfile\\user_Profiles.csv') # profiles of all users
+        recent_activity = pd.read_csv(r'C:\\Users\\DELL\\Desktop\\gitdiet\\meal\\DJANGO\\minor\\website\\csvfile\\recent_activity.csv') # recent activities of current user (meals liked,rated,searched,Purchased)
+        dataset = pd.read_csv(r'C:\\Users\\DELL\\Desktop\\gitdiet\\meal\\DJANGO\\minor\\website\\dataset.csv') # main dataset
         
         
         ob = Recommender(profiles,recent_activity,dataset)
